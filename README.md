@@ -1,5 +1,7 @@
 # Coffee Shop Booking
 
+![Screenshot](app/screenshot.png)
+
 An Android app for ordering coffee and snacks. Built with Java and Firebase Realtime Database.
 
 ## Features
@@ -16,10 +18,6 @@ An Android app for ordering coffee and snacks. Built with Java and Firebase Real
 - **UI:** Material 3, RecyclerView, CardView
 - **Backend:** Firebase Realtime Database
 - **Build System:** Gradle with Kotlin DSL
-
-## Screenshots
-
-<!-- Add screenshots here -->
 
 ## License
 
