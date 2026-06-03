@@ -1,6 +1,7 @@
 # Coffee Shop Booking
 
-![Screenshot](app/screenshot.png)
+![Screenshot 1](app/src/main/res/drawable/screenshot1.jpeg)
+![Screenshot 2](app/src/main/res/drawable/screenshot2.jpeg)
 
 An Android app for ordering coffee and snacks. Built with Java and Firebase Realtime Database.
 
