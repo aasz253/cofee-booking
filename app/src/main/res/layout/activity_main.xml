@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Coffee Shop"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etNeed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="type your need"
+            android:padding="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="More types of coffee"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnMinus"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:onClick="onMinusClick"
+                android:text="-" />
+
+            <EditText
+                android:id="@+id/etQuantity"
+                android:layout_width="60dp"
+                android:layout_height="48dp"
+                android:layout_marginHorizontal="12dp"
+                android:gravity="center"
+                android:inputType="number"
+                android:text="0"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnAdd"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:onClick="onAddClick"
+                android:text="+" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Toppings"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/cbChips"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chips" />
+
+            <CheckBox
+                android:id="@+id/cbMandazi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mandazi" />
+
+            <CheckBox
+                android:id="@+id/cbSamosa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Samosa" />
+
+            <CheckBox
+                android:id="@+id/cbCake"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cake" />
+
+            <CheckBox
+                android:id="@+id/cbBiscuit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Biscuit" />
+
+            <CheckBox
+                android:id="@+id/cbDoughnut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Doughnut" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnPlaceOrder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/place_order" />
+
+        <Button
+            android:id="@+id/btnViewOrders"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/view_orders"
+            style="@style/Widget.Material3.Button.OutlinedButton" />
+
+    </LinearLayout>
+
+</ScrollView>

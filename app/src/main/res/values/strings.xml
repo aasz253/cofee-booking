@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Coffee Shop</string>
+    <string name="place_order">Place Order</string>
+    <string name="view_orders">View Orders</string>
+    <string name="orders_title">Orders</string>
+    <string name="order_placed_success">Order placed successfully!</string>
+    <string name="order_failed">Failed to place order</string>
+    <string name="no_orders">No orders yet</string>
+    <string name="invalid_order">Please enter your order details and select at least 1 coffee</string>
+    <string name="coffee_price">$3.50</string>
+    <string name="toppings_title">Toppings</string>
+    <string name="coffee_section_title">More types of coffee</string>
+    <string name="need_hint">What would you like? (e.g., Latte, Americano)</string>
+</resources>
